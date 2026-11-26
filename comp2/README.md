@@ -1,4 +1,8 @@
+<p align="center"><a href="README.md"><img src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-2a78d6?style=for-the-badge" alt="繁體中文"></a> <a href="README.en.md"><img src="https://img.shields.io/badge/English-6e7781?style=for-the-badge" alt="English"></a></p>
+
 # 競賽二：從圍棋棋譜預測玩家棋力等級（TEAM_11306）
+
+← 回到 [repo 首頁](../README.md)
 
 最終提交檔：Private 0.789846（第 6 名）。本資料夾是產生該檔的程式碼：資料處理、特徵抽取、模型訓練、證據計算、融合與集成，以及重現檢查。
 方法說明見報告；本文件說明如何安裝、放置資料與權重、依序執行，以及如何重現最終提交檔。
