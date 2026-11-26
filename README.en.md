@@ -1,12 +1,12 @@
-<p align="center"><a href="README.md"><img src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-6e7781?style=for-the-badge" alt="繁體中文"></a> <a href="README.en.md"><img src="https://img.shields.io/badge/English-2a78d6?style=for-the-badge" alt="English"></a></p>
+<p align="center"><a href="README.md"><img src=".github/assets/lang-zh-off.svg" alt="繁體中文"></a> <a href="README.en.md"><img src=".github/assets/lang-en-on.svg" alt="English"></a></p>
 
 <h1 align="center">AI CUP 2026 Fall<br>Go Playing Strength and Style Prediction</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.12-3776ab?logo=python&logoColor=white" alt="Python 3.12">
-  <img src="https://img.shields.io/badge/PyTorch-2.x-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/KataGo-Human%20SL-444444" alt="KataGo Human SL">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2a8f3c" alt="MIT License"></a>
+  <img src=".github/assets/badge-python.svg" alt="Python 3.12">
+  <img src=".github/assets/badge-pytorch.svg" alt="PyTorch">
+  <img src=".github/assets/badge-katago.svg" alt="KataGo Human SL">
+  <a href="LICENSE"><img src=".github/assets/badge-license.svg" alt="MIT License"></a>
 </p>
 
 <p align="center">Complete code for both sub-competitions: data processing, model training, inference, and reproduction checks for the final submissions.</p>

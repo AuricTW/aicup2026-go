@@ -1,12 +1,12 @@
-<p align="center"><a href="README.md"><img src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-2a78d6?style=for-the-badge" alt="繁體中文"></a> <a href="README.en.md"><img src="https://img.shields.io/badge/English-6e7781?style=for-the-badge" alt="English"></a></p>
+<p align="center"><a href="README.md"><img src=".github/assets/lang-zh-on.svg" alt="繁體中文"></a> <a href="README.en.md"><img src=".github/assets/lang-en-off.svg" alt="English"></a></p>
 
 <h1 align="center">AI CUP 2026 秋季賽<br>圍棋棋力與風格預測競賽</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.12-3776ab?logo=python&logoColor=white" alt="Python 3.12">
-  <img src="https://img.shields.io/badge/PyTorch-2.x-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/KataGo-Human%20SL-444444" alt="KataGo Human SL">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2a8f3c" alt="MIT License"></a>
+  <img src=".github/assets/badge-python.svg" alt="Python 3.12">
+  <img src=".github/assets/badge-pytorch.svg" alt="PyTorch">
+  <img src=".github/assets/badge-katago.svg" alt="KataGo Human SL">
+  <a href="LICENSE"><img src=".github/assets/badge-license.svg" alt="MIT License"></a>
 </p>
 
 <p align="center">兩個子競賽的完整程式碼：資料處理、模型訓練、推論，以及最終提交檔的重現檢查。</p>

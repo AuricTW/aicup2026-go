@@ -1,4 +1,4 @@
-<p align="center"><a href="README.md"><img src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-2a78d6?style=for-the-badge" alt="繁體中文"></a> <a href="README.en.md"><img src="https://img.shields.io/badge/English-6e7781?style=for-the-badge" alt="English"></a></p>
+<p align="center"><a href="README.md"><img src="../.github/assets/lang-zh-on.svg" alt="繁體中文"></a> <a href="README.en.md"><img src="../.github/assets/lang-en-off.svg" alt="English"></a></p>
 
 # 競賽二：從圍棋棋譜預測玩家棋力等級（TEAM_11306）
 
