@@ -182,7 +182,12 @@ python src/blend_final.py --out work/final/go_rank_final.csv
 
 ## 5. 權重與中間產物
 
-權重不放在 git，請從本 repo 的 GitHub Release 下載。
+權重不放在 git，請從本 repo 的 GitHub Release 下載。Release `v1.0` 的附件 `comp2_weights.tar` 收有本節列出的全部檔案與 `MANIFEST.csv`（附件的 SHA-256 見 `SHA256SUMS.txt`）：
+
+```bash
+mkdir -p weights/comp2
+tar -xf comp2_weights.tar -C weights/comp2/     # Windows cmd 也可用內建的 tar
+```
 
 - Release 檔案依 `weights_manifest.tsv` 的相對路徑解開到任一資料夾，例如 `weights/comp2/`（kind 為 `comp1 release` 的 3 列在競賽一的 Release，見下文）。
 - 再把 `configs/paths.yaml` 與 `vm/env.sh` 指到該處。

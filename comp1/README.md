@@ -116,6 +116,23 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 
 權重放在本 repo 的 GitHub Releases（不進 git）。下載後解壓到 `comp1/`，路徑即下表的相對路徑。Release 內 106 個檔案（3.72 GiB）的名稱、大小與 SHA-256 列在 `weights_manifest.tsv`（`in_release` 欄為 `yes`）；另有 11 個由官方資料重新編碼的檔案不隨 Release 提供（`in_release` 欄為 `no`，見 5.3 節）。
 
+Release `v1.0` 的附件 `comp1_weights.tar.part00`～`part02` 是同一個 tar 切成的三段（附件本身的 SHA-256 見 `SHA256SUMS.txt`）。在 repo 根目錄下載後執行：
+
+```bash
+# Linux / macOS
+cat comp1_weights.tar.part0* > comp1_weights.tar
+sha256sum -c SHA256SUMS.txt --ignore-missing
+tar -xf comp1_weights.tar -C comp1/
+```
+
+```bat
+:: Windows（cmd）
+copy /b comp1_weights.tar.part00+comp1_weights.tar.part01+comp1_weights.tar.part02 comp1_weights.tar
+tar -xf comp1_weights.tar -C comp1
+```
+
+解開後 `comp1/` 下會多出 `runs/` 等資料夾與 `MANIFEST.csv`，各檔的 SHA-256 可用 `weights_manifest.tsv` 核對。
+
 ### 5.1 模型權重（60 個，2.45 GiB）
 
 | 檔案（相對於 comp1/） | MB | SHA-256 |
