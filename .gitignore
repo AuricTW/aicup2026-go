@@ -1,0 +1,29 @@
+# Data and model files are never committed: data is downloaded from the official source,
+# weights are attached to the GitHub Release (see each competition README).
+data/
+**/data/
+weights/
+**/weights/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.bin
+*.bin.gz
+*.zip
+*.csv
+outputs/
+**/outputs/
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local settings and secrets
+.env
+*.local.*
+paths.local.yaml

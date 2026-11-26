@@ -1,0 +1,9 @@
+Upstream: KataGo by David J Wu ("lightvector") and contributors
+URL:      https://github.com/lightvector/KataGo
+Version:  release tag v1.18.2 (source archive of that tag), directory python/katago/
+License:  LICENSE in this folder, copied unchanged from the repository root of the same tag (MIT for the Python code)
+
+Contents: the 20 Python files of python/katago/ that the comp1 feature worker (comp1/payload) and the
+comp2 extract_trunk*.py scripts import (game/, train/, utils/ and the package __init__.py files).
+Files are NOT modified: each one is byte-identical to the upstream v1.18.2 file, and the SHA-256 of every
+.py file is listed under vendor/katago/ in comp1/payload/MANIFEST.json.

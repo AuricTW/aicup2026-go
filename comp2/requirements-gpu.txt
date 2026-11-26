@@ -1,0 +1,12 @@
+# comp2 GPU-host stages. Python 3.12, CUDA 12.8 wheels:
+#   pip install -r requirements-gpu.txt --extra-index-url https://download.pytorch.org/whl/cu128
+# Environment A ($PY in vm/env.sh): KataGo Human SL features, trunk embeddings, identity networks.
+#   Recorded version: torch 2.10.0+cu128 (the environment itself no longer exists; no full lock file was kept, see README).
+# Environment B ($PY1): comp1's token worker, token heads, rank1 (pip freeze of 2026-11-25, main packages below).
+torch==2.11.0+cu128
+numpy==2.3.1
+scipy==1.17.0
+nvidia-cublas-cu12==12.8.4.1
+nvidia-cudnn-cu12==9.19.0.56
+triton==3.6.0
+sgfmill==1.1.1

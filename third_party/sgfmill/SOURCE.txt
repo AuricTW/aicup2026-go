@@ -1,0 +1,9 @@
+Upstream: Sgfmill by Matthew Woodcraft and the sgfmill contributors (Matthew Woodcraft, Seth Troisi)
+URL:      https://github.com/mattheww/sgfmill  (documentation: https://mjw.woodcraft.me.uk/sgfmill/)
+Version:  1.1.1 (PyPI release, git tag sgfmill-1.1.1), package directory sgfmill/
+License:  MIT. LICENSE in this folder carries the copyright line and the MIT permission notice of
+          doc/licence.rst from sgfmill 1.1.1 word for word (only the reST markup is dropped).
+
+Contents: the 9 Python files of the sgfmill package used by the comp1 feature worker (comp1/payload).
+Files are NOT modified: each one is byte-identical to the file in the sgfmill 1.1.1 wheel, and the SHA-256
+of every .py file is listed under vendor/sgfmill/ in comp1/payload/MANIFEST.json.

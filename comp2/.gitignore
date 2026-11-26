@@ -1,0 +1,9 @@
+# comp2 working folders (data, intermediate files, weights and outputs are not committed)
+data/
+work/
+prev_system/*.npz
+prev_system/*.json
+external/
+katago/
+configs/paths.yaml
+vm/env.sh

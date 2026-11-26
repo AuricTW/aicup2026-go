@@ -1,0 +1,6 @@
+# comp1 working folders (data, run outputs, weights and submissions are not committed)
+runs/
+submissions/
+data/
+configs/paths.yaml
+

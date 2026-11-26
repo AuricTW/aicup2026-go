@@ -1,0 +1,31 @@
+# comp2 machine-specific settings. Copy this file to paths.yaml and edit it.
+# Relative paths are relative to the comp2/ folder. An environment variable AICUP2_<KEY> overrides a value,
+# e.g. AICUP2_WORK=/data/comp2_work
+
+# Folder that holds the official data (README, "資料放置"): data/raw/training_v1_1_20261104/training/train_*.csv,
+# data/raw/official_rank_tests_20261104_v1/tests/*.csv and the split file data/interim/index.csv.
+root: .
+
+# Intermediate files of the pipeline: moves datasets, model outputs, evidence files (the scripts' former vm_out/ folder).
+# Put the OOF player lists of the release here (fixed_inputs/work/oof_games.csv, oof_dense_map.csv).
+work: work
+
+# Member posteriors written by run_parts.py and read by blend_final.py (the release copy: weights/comp2/parts).
+parts: work/parts
+
+# Fixed outputs of the previous system (release: weights/comp2/fixed_inputs/prev_system/).
+d64_oof: prev_system/OLD_FUSED.npz
+d64_queries: prev_system/queries_dense.json
+d64_test: prev_system/go_rank_D64_profile5_parent5_logG_cal6_RESEARCH_20261107_v1_posteriors.npz
+
+# GPU host only ---------------------------------------------------------------------------------------------------
+# KataGo analysis engine v1.18.2 (README) and its CUDA / cuDNN library folder (empty = the system libraries).
+katago_exe: katago/katago
+katago_lib_dir:
+# KataGo Human SL network: training checkpoint (trunk embeddings) and engine-format model (per-move likelihoods).
+humansl_ckpt: external/b18c384nbt-humanv0.ckpt
+humansl_bin: external/b18c384nbt-humanv0.bin.gz
+# Main KataGo network of kata_eval.py (not used by the final chain; kata_eval.py only provides helpers there).
+katago_main_model: external/main.bin.gz
+# Folder with raw/training/*.csv, raw/tests/*.csv and raw/split_index.csv for the game-list builders (make_gamelist*.py).
+gpu_data: .
