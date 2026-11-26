@@ -26,7 +26,7 @@ Each competition folder has its own README covering installation, data placement
 aicup2026-go/
 ├── comp1/         Competition 1: player identification (code, configs, README)
 ├── comp2/         Competition 2: rank prediction (code, configs, README)
-├── third_party/   Third-party code shared by both: KataGo Python modules, sgfmill (unmodified, original licenses)
+├── third_party/   Shared third-party code: KataGo modules, sgfmill
 └── LICENSE        MIT
 ```
 

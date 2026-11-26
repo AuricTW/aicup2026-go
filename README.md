@@ -26,7 +26,7 @@
 aicup2026-go/
 ├── comp1/         競賽一：玩家辨識（程式、設定、README）
 ├── comp2/         競賽二：棋力等級預測（程式、設定、README）
-├── third_party/   兩個競賽共用的第三方程式碼：KataGo Python 模組、sgfmill（未修改，附原授權）
+├── third_party/   共用的第三方程式碼：KataGo 模組、sgfmill
 └── LICENSE        MIT
 ```
 
