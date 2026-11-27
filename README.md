@@ -9,7 +9,7 @@
   <a href="LICENSE"><img src=".github/assets/badge-license.svg" alt="MIT License"></a>
 </p>
 
-<p align="center">兩個子競賽的完整程式碼：資料處理、模型訓練、推論，以及最終提交檔的重現檢查。</p>
+<p align="center">兩個競賽完整程式碼：資料處理、模型訓練、推論，以及最終提交檔的重現檢查。</p>
 
 ## 競賽與成績
 
