@@ -12,7 +12,7 @@ The method is described in the report; this document explains how to install, wh
 | `src/` | Python code used by the final submission (all in one flat folder, importing each other) |
 | `vm/` | Shell scripts run on the GPU host (KataGo features, identity networks, reuse of comp1 tokens, rank1) |
 | `prev_system/` | Code of the previous system (Codex era); the second-stage fusion of the final file uses its fixed posteriors |
-| `analysis/` | Analysis code needed only for the report's methods and figures (does not affect the submission) |
+| `analysis/` | Code for the mirror validation, member selection and analysis numbers in the report (does not affect the submission) |
 | `configs/` | Machine settings example `paths.example.yaml`; training arguments stored in the checkpoints, `training_args.json` |
 | `SOURCES.tsv` | For every file in the repo: its original source file, that file's SHA-256, and whether paths were changed |
 | `weights_manifest.tsv` | File names, sizes and SHA-256 of the Release weights and intermediate files |

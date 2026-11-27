@@ -71,9 +71,6 @@ analysis/abc_union.py	runs/kata_quality_20261114_v1/abc_union.py	0a144ab90df49ee
 analysis/analysis_numbers.py	reports/final_report_prep/figures/analysis_numbers.py	ed335c4c6002722937028db0ee36827ab27dba74486f95b4590bdefc431b5df4	yes
 analysis/hyb_multi.py	runs/kata_quality_20261114_v1/hyb_multi.py	612a2916e5daa46a3479f70e79803a197a6a90414ffd4ac7a3439672fb294584	no
 analysis/m6_dropseeds.py	runs/kata_quality_20261114_v1/m6_dropseeds.py	9252f17a471f94a153ed1420c6d806ec065677dd5626d7e157fb3b8865d72b53	yes
-analysis/make_arch.py	reports/final_report_prep/figures/make_arch.py	94b4e5fd0567f9bccfaa2aa5f17559a62a14d2940da5243c75aeaabf0dfeea16	yes
-analysis/make_figures.py	reports/final_report_prep/figures/make_figures.py	d69264dab74c76161a20e1c69bf96a913366676855d568c0eb20fc8bf0edf892	yes
-analysis/report_fig_style.py	(shared report tool) report_fig_style.py	c3ab46914913da6ff6e770771a09a6b4772cb2bf1a433fd681ede4e90cc994d8	yes
 src/blend_test.py (repo edit)	(optional reference file '-')	-	yes
 src/comp2_paths.py	(new in the repo: settings / Python form of the PowerShell drivers)	-	new
 src/members.py	(new in the repo: settings / Python form of the PowerShell drivers)	-	new

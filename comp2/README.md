@@ -12,7 +12,7 @@
 | `src/` | 最終提交檔用到的 Python 程式（全部平放在同一層，互相 import） |
 | `vm/` | GPU 主機上執行的 shell 腳本（KataGo 特徵、身分辨識網路、競賽一 token 轉用、rank1） |
 | `prev_system/` | 前一代系統（Codex 時期）的程式；最終檔的第二階段融合使用它的固定後驗 |
-| `analysis/` | 只為報告方法與圖表需要的分析程式（不影響提交檔內容） |
+| `analysis/` | 報告中鏡像驗證、選檔與分析數字所用的程式（不影響提交檔內容） |
 | `configs/` | 機器設定範例 `paths.example.yaml`；checkpoint 內存的訓練參數 `training_args.json` |
 | `SOURCES.tsv` | repo 內每個檔案對應的原始檔與其 SHA-256，以及是否改過路徑 |
 | `weights_manifest.tsv` | Release 權重與中間產物的檔名、大小、SHA-256 |
