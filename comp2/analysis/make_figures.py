@@ -30,7 +30,7 @@ def legend_below(ax, ncol=2, y=-0.16):
 
 
 # fig1: milestones on the same validation questions
-steps = [("前一代\n系統", 0.6936), ("加入\nHuman SL\n似然模型", 0.7215), ("HT 序列\n模型", 0.7371), ("加入對手\n身分證據", 0.7644),
+steps = [("前一代\n系統", 0.6936), ("加入\nHuman SL\n似然模型", 0.7215), ("HT 序列\n模型與\n指紋證據", 0.7371), ("加入對手\n身分證據", 0.7644),
          ("學生網路\n集成", 0.7709), ("主幹特徵\n網路", 0.7780), ("加入第二\n辨識器", 0.7899), ("最終\n提交檔", O["full"][0])]
 fig, ax = new_figure(7.0)
 x = np.arange(len(steps)); v = [s[1] for s in steps]; lo, hi = O["full"][1], O["full"][2]

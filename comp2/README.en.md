@@ -273,7 +273,7 @@ The evidence files used by R2 are features derived from the official data and ar
 | R1 | CPU | A few seconds |
 | R2 (91 members) | CPU (i7-12700, 4 parallel workers) | 22 minutes (measured) |
 | Preprocessing and datasets | CPU | About 10 minutes |
-| Human SL per-move likelihoods | RTX 4090 | About 5 hours |
+| Human SL per-move likelihoods | RTX 4090 | About 10 hours (including the HT training set; about 5 hours for the dev, test and OOF games only) |
 | Trunk embeddings (query games) | RTX 4090 | About 3 hours; the first 80 moves of the 792,000 gallery games take about 16 more hours |
 | HT models (2 seeds × 14 epochs) | RTX 3060 | About 0.5 hours |
 | Identity networks (15 networks + 6 pseudo-label rounds) | RTX 4090 | About 35–45 GPU hours (1.5–3.5 hours each) |
